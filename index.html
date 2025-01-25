@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Downloader</title>
+  <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Downloader</h1>
+    <input type="text" id="youtube-url" placeholder="Enter YouTube URL" />
+    <select id="download-type">
+      <option value="video">Video (MP4)</option>
+      <option value="audio">Audio (MP3)</option>
+    </select>
+    <button id="download-btn">Download</button>
+    <div id="progress-container">
+      <progress id="progress-bar" value="0" max="100"></progress>
+      <p id="progress-text">Progress: 0%</p>
+    </div>
+  </div>
+  <script src="public/scripts.js"></script>
+</body>
+</html>
