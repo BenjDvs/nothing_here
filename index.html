@@ -1,51 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home | YouTube Downloader</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    p {
-      font-size: 1rem;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    a {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 0.9rem;
-      color: white;
-      background-color: #007BFF;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
-    a:hover {
-      background-color: #0056b3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
 </head>
 <body>
-  <h1>Welcome to YouTube Downloader</h1>
-  <p>Easily download your favorite YouTube videos with our tool.</p>
-  <!-- Link to a file in a different folder -->
-  <a href="https://github.com/BenjDvs/nothing_here/blob/main/Public/index.html">Go to YouTube Downloader</a>
+    <h1>YouTube Downloader</h1>
+    <label for="videoUrl">Enter YouTube Video URL:</label>
+    <input type="text" id="videoUrl" placeholder="Enter video URL here">
+    <button onclick="downloadVideo()">Download</button>
+    <script src="scripts.js"></script>
 </body>
 </html>
